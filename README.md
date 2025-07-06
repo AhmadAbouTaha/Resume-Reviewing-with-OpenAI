@@ -60,6 +60,6 @@ Trigger the workflow manually by using the Test Workflow node in N8N to start th
 
 ---
 
-**Use Case**
+## Use Case
 This workflow is ideal for recruitment professionals who want to automate the process of evaluating resumes based on a specific job description. The workflow provides a match percentage, a summary of candidate suitability, and detailed insights into why a candidate is suitable (or not) for the role.
 
