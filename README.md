@@ -35,7 +35,7 @@ The workflow is particularly useful for recruitment agencies and HR professional
 - **OpenAI - Analyze Resume**: Sends the extracted text and job description to OpenAI's API for analysis.
 - **Set Variables**: Defines the necessary variables such as file URL and job description.
 - **Parsed JSON**: Parses the JSON response from OpenAI for further use.
-
+  
 ---
 
 ## Setup Instructions
@@ -46,3 +46,20 @@ To set up and use this workflow, follow these steps:
    ```bash
    git clone https://github.com/yourusername/resume-evaluation-workflow.git
    cd resume-evaluation-workflow
+2. **Configure File URL**:
+In the Set Variables node, replace the predefined file URL with the location of your resume (e.g., a link from Supabase or Dropbox).
+
+3. **Provide Job Description**:
+Update the Set Variables node with the relevant job description that you want to match against the resume.
+
+4. **OpenAI Credentials**:
+Make sure you have an OpenAI API key and set it up in N8N under the OpenAI API credentials.
+
+5. **Run the Workflow**:
+Trigger the workflow manually by using the Test Workflow node in N8N to start the process.
+
+---
+
+**Use Case**
+This workflow is ideal for recruitment professionals who want to automate the process of evaluating resumes based on a specific job description. The workflow provides a match percentage, a summary of candidate suitability, and detailed insights into why a candidate is suitable (or not) for the role.
+
