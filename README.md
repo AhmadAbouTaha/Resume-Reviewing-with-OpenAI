@@ -1,5 +1,8 @@
 # Resume Evaluation Workflow with OpenAI
 
+![image](https://github.com/user-attachments/assets/1224394b-390d-495c-bae9-ea1151bdbbde)
+
+
 ## Overview
 
 This repository contains a workflow for automating the **resume evaluation** process using N8N. It integrates multiple nodes to download a resume, extract text from the document, analyze it with OpenAI, and store the results in a structured format.
